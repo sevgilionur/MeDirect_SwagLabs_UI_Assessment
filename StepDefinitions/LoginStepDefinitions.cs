@@ -51,7 +51,7 @@ namespace SpecFlowBDDAutomationFramework.StepDefinitions
         }
 
         [Then(@"User sees the problem user images")]
-        public void ThenUserSeesTheProblemUser›mages()
+        public void ThenUserSeesTheProblemUserImages() 
         {
             loginPage.CheckLoginForProblemUser();
         }
